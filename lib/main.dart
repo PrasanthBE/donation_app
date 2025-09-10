@@ -26,7 +26,7 @@ Future<void> main() async {
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
   runApp(MyApp());
-}
+} //firebase
 
 class MyApp extends StatefulWidget {
   @override

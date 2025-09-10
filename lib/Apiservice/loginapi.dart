@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class Loginapi {
   Future<dynamic> loginRequest(String mobileNumber) async {
-    print("Mobile Number: $mobileNumber"); //test
+    print("Mobile Number: $mobileNumber");
     //String serverUrl = global.coreserviceUrl;
     String serverUrl = "http://13.234.5.180:8180/origa-coreservice/rest/api";
     String apiName = "/Elogin/EngineerLogin/ssaEngineerLogin";
