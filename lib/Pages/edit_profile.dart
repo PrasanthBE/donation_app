@@ -775,6 +775,7 @@ class CardExample extends State<edit_profile_page> {
       } else if (field['field_type'] == 'location') {
         widgetList.add(
           DynamicLocationForm(
+            //test
             locationFields: [field],
             answerJson:
                 answerJson.map((e) => Map<String, dynamic>.from(e)).toList(),
